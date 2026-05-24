@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    .links {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .link-button {
+      display: block;
+      padding: 14px 16px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .link-button:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: #777;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Haru Kawasaki</h1>
+      <p class="subtitle">学生 / プログラミング / 物理 / 研究</p>
+
+      <h2>About</h2>
+      <p>
+        主に流体力学・統計力学関係の研究を行っています。最近はデータ分析を頻繁に使う影響でPythonのPandasモジュールなどを多用しています。
+        機械学習などの情報分野にも興味があります。
+      </p>
+
+      <h2>Projects</h2>
+      <p>
+        「九谷焼における添加物技術の定量的検証」
+        <br>他粒子懸濁液を対象にした数理モデル化など
+      </p>
+
+      <h2>Links</h2>
+      <div class="links">
+        <a class="link-button" href="https://x.com/OtterWiz">X</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Haru Kawasaki
+    </footer>
+  </main>
+</body>
+</html>
